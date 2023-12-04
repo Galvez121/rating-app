@@ -1,70 +1,115 @@
-# Getting Started with Create React App
+# Frontend Mentor - Interactive rating component solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+- [Author](#author)
 
-### `npm start`
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### The challenge
 
-### `npm test`
+Users should be able to:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
 
-### `npm run build`
+### Screenshot
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Unfortunately, I did not take a screenshot before adding the styles to the Main component; here it is the first-creenshot after adding the styles:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+!![](images/first-screenshot-.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+How the thank you page looked like in V1.0:
 
-### `npm run eject`
+!![](images/first-thankyouPage-screenshot.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+How it looked like after V1.4
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+!![](images/thanksPage_final.jpeg)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Links
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## Learn More
+## My process
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Built with
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [React](https://reactjs.org/) - JS library
 
-### Code Splitting
+### What I learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
-### Analyzing the Bundle Size
+To see how you can add code snippets, see below:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+I have learned how to use an array to create a list in React (JSX code).
 
-### Making a Progressive Web App
+```html
+<ul>
+  {[1, 2, 3, 4, 5].map((value) => (
+  <li>{value}</li>
+  ))}
+</ul>
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```html
+<h1>Some HTML code I'm proud of</h1>
+```
 
-### Advanced Configuration
+I have a better understanding on how display flex works; here I learned how to center elements using justify-content and align-items
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```css
+.star_logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+}
+```
 
-### Deployment
+I learned how to add a svg as an React component
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```js
+import { ReactComponent as ThankYouIllustration } from "../src/illustration-thank-you.svg";
 
-### `npm run build` fails to minify
+<ThankYouIllustration />;
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I had a hard time finding a way to pass the props between the RatingPage() and ThanksPage(); at the end, I combined the components StartLogo() and Text() in a single component and created a new function that will control the prop for the ThanksPage(). (You can see the difference between the V1 and V2 in the commits)
+
+**Note: Delete this note and the content within this section and replace with your own learnings.**
+
+### Continued development
+
+I need to practice the usage of State and Props in React. I took me some time to create the submit functionality.
+
+In future projects I want to improve how I analyze a website and come with the different react components neccesary to create it.
+
+I have forgotten how to add svg elements. This project helped me with that. I
+
+**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+
+## Author
+
+- Website - [Add your name here](https://www.your-site.com)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
