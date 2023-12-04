@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/.github.io/rating-app/static/css/main.d22c688b.css",
-    "main.js": "/.github.io/rating-app/static/js/main.23aade5f.js",
-    "static/media/illustration-thank-you.svg": "/.github.io/rating-app/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
-    "index.html": "/.github.io/rating-app/index.html",
-    "main.d22c688b.css.map": "/.github.io/rating-app/static/css/main.d22c688b.css.map",
-    "main.23aade5f.js.map": "/.github.io/rating-app/static/js/main.23aade5f.js.map"
+    "main.css": "/rating-app/static/css/main.d22c688b.css",
+    "main.js": "/rating-app/static/js/main.1c2778a9.js",
+    "static/media/illustration-thank-you.svg": "/rating-app/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/rating-app/index.html",
+    "main.d22c688b.css.map": "/rating-app/static/css/main.d22c688b.css.map",
+    "main.1c2778a9.js.map": "/rating-app/static/js/main.1c2778a9.js.map"
   },
   "entrypoints": [
     "static/css/main.d22c688b.css",
-    "static/js/main.23aade5f.js"
+    "static/js/main.1c2778a9.js"
   ]
 }
