@@ -112,4 +112,4 @@ I have forgotten how to add svg elements. This project helped me with that. I
 ## Author
 
 - Instagram - [@juan_gszs](https://www.instagram.com/juan_gszs/)
-- Frontend Mentor - [@Galvez121]([https://www.frontendmentor.io/profile/yourusername](https://www.frontendmentor.io/profile/Galvez121)https://www.frontendmentor.io/profile/Galvez121)
+- Frontend Mentor - [@Galvez121](https://www.frontendmentor.io/profile/Galvez121)https://www.frontendmentor.io/profile/Galvez121)
