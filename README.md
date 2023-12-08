@@ -43,10 +43,10 @@ How it looked like after V1.4
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/i-solved-this-challenge-using-react-and-flexbox-pVRB0a7_aw))
+- Live Site URL: ([https://your-live-site-url.com](https://galvez121.github.io/rating-app/))
 
-## My process
+
 
 ### Built with
 
@@ -111,5 +111,5 @@ I have forgotten how to add svg elements. This project helped me with that. I
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Instagram - [@juan_gszs](https://www.instagram.com/juan_gszs/)
+- Frontend Mentor - [@Galvez121](https://www.frontendmentor.io/profile/Galvez121)https://www.frontendmentor.io/profile/Galvez121)
