@@ -79,6 +79,7 @@ li {
 .submitButton:hover {
   background-color: white;
   color: hsl(25, 97%, 53%);
+  cursor: pointer;
 }
 
 /*Thank you Page*/
